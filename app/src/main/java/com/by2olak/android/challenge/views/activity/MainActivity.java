@@ -125,7 +125,6 @@ public class MainActivity extends AppCompatActivity implements IMainActivityView
 
                 Log.e("Search", "is Called");
                 Log.e("Search", "is Called");
-                Log.e("Search", "is Called");
                 if (newText == null || newText.equals("")) {
                     if (Network.isNetworkOnline(mcontext)) {
                         hideLoading();
